@@ -1,0 +1,82 @@
+
+        @import url('https://fonts.googleapis.com/css2?family=Bitcount+Grid+Double:wght@100..900&display=swap');
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Bitcount Grid Double', monospace;
+        }
+
+         body {
+            background-image: url('/pictures/hi.png');
+            background-color: #0d0d0d;
+            background-attachment: fixed;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+
+        .main {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+            height: 100vh;
+        }
+
+        .form-container {
+            background: rgba(255, 255, 255, 0.263);
+            backdrop-filter: blur(4px);
+            padding: 30px;
+            border-radius: 13px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.261);
+            width: 320px;
+        }
+
+        .grid-form {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 12px;
+        }
+
+        .form-group {
+            display: flex;
+            flex-direction: column; 
+            gap: 5px; 
+            margin-bottom: 10px; 
+        }
+
+        .form-group label {
+            color: black;
+            font-weight: bold;
+        }
+
+        input { 
+            padding: 10px; 
+            border: 1.4px solid black; 
+            border-radius: 7px;
+            font-family: 'Arial', sans-serif;
+            font-weight: bold;
+        }
+
+        button { 
+            padding: 11px; 
+            background: #38479e; 
+            color: white; 
+            border: none; 
+            cursor: pointer;
+            font-size: 15px;
+            border-radius: 15px;
+            width: 100%;
+            transition: 0.3s;
+        }
+
+        button:hover { 
+            background: #2b387e;
+        }
+
+        h2 {
+            text-align: center;
+            color: black;
+        }
